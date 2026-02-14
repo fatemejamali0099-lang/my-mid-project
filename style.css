@@ -5,6 +5,11 @@
     font-family: sans-serif;
 }
 
+body {
+    width: 1450px;
+    margin: auto;
+}
+
 .top-bar {
     background-color: #FF510C;
     color: white;
@@ -99,21 +104,16 @@
 
 /* Hero */
 .hero {
-    width: 2000px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 70px 10%;
     background: #fff;
-    margin: 4rem 0rem;
-
 }
 
 .hero-content {
     margin: auto;
     text-align: center;
     align-items: center;
-    width: 1707px;
 }
 
 .hero-content h1 {
@@ -147,5 +147,4 @@
     justify-content: space-between;
     object-fit: contain;
     margin: auto;
-
 }
