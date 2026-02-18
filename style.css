@@ -210,13 +210,154 @@ body {
 .under {
     margin-top: 1rem;
 }
-
-/* .offer-sub {
-    color: #FF510C;
-    margin-bottom: 15px;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-h3  {
+body {
+    background: #f5f5f5;
+}
+
+/* Section */
+.offer {
+    padding: 80px 0;
+}
+
+.offer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    border-radius: 24px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left */
+.offer-info {
+    width: 55%;
+}
+
+/* Header */
+.offer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.offer-header h3 {
+    color: #d04a2a;
+    font-size: 18px;
+    border-bottom: 1px solid #e0b2a6;
+    padding-bottom: 5px;
+}
+
+/* Timer */
+.timer {
+    display: flex;
+    gap: 8px;
+}
+
+.time-box {
+    width: 55px;
+    height: 55px;
+    background: #f1f1f1;
+    border-radius: 10px;
     text-align: center;
-} */
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+.time-box span {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.time-box.red {
+    background: #FF510C;  
+    color: #fff;
+}
+
+/* Title */
+.product-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Price */
+.price {
+    font-size: 18px;
+    color: #d04a2a;
+    margin-bottom: 20px;
+}
+
+.price span {
+    font-weight: bold;
+}
+
+/* Colors */
+.colors {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.color {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color.black { background: #333; }
+.color.gray { background: #bbb; }
+.color.purple { background: #6a4fb3; }
+
+/* Buttons */
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.buy {
+    background: #d04a2a;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+}
+
+/* Warranty */
+.warranty {
+    font-size: 13px;
+    color: #d04a2a;
+}
+
+/* Image */
+.offer-image {
+    width: 40%;
+}
+
+.offer-image img {
+    width: 100%;
+    border-radius: 20px;
+}
