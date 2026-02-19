@@ -418,3 +418,119 @@ body {
     width: 100%;
     border-radius: 20px;
 }
+
+/*cards*/
+.section-title {
+    font-family: yekan;
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4rem 34rem;
+}
+
+.section-title .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #F6F6F6;
+    width: 323px;
+    height: 541px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-card {
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    background-color: white;
+}
+
+.bg-car img {
+    width: 297px;
+
+}
+
+.card-body h3 {
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 38px;
+    font-family: yekan;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-btn {
+    width: 48px;
+    height: 48px;
+    background-color: #FF510C;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.price {
+    font-family: yekan;
+    font-weight: 600;
+}
+
+/* Color Dots */
+.colorss {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 2rem;
+}
+
+.c {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.red {
+    background: #E24C21;
+}
+
+.gray {
+    background: #828282;
+}
+
+.light {
+    background: #ECECEC;
+}
+
+.silver {
+    background: #ECECEC;
+}
+
+.gold {
+    background: #FFDA79;
+}
