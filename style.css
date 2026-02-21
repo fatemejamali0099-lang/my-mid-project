@@ -307,6 +307,8 @@ body {
 
 /* Title */
 .product-title {
+    font-family: yekan;
+    font-weight: 600;
     text-align: center;
     font-size: 26px;
     margin-bottom: 20px;
@@ -318,13 +320,17 @@ body {
 } */
 
 /* Price */
+.gheymat {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 21rem 0 15rem;
+}
+
 .bold {
-    margin: 0 4rem 0 -8rem;
     font-family: yekan;
     font-weight: 700;
     font-size: 25px;
     color: #ff4d2d;
-    margin-bottom: 20px;
 }
 
 .regular {
@@ -449,7 +455,7 @@ body {
     height: 541px;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 15px 8px 12px 5px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -483,9 +489,9 @@ body {
 
 .bottom {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row-reverse;
 }
+
 
 .add-btn {
     width: 48px;
@@ -497,12 +503,18 @@ body {
 }
 
 .price {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    height: 2rem;
+    margin-top: -3rem;
     font-family: yekan;
     font-weight: 600;
 }
 
 /* Color Dots */
 .colorss {
+    padding-top: 3rem;
     display: flex;
     justify-content: center;
     gap: 6px;
@@ -533,4 +545,69 @@ body {
 
 .gold {
     background: #FFDA79;
+}
+
+/* 730491 */
+
+.containerrrr {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.right-box {
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+    width: 60%;
+    height: 560px;
+    background: linear-gradient(#004FC6, #72AAFF);
+}
+
+.left-box {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    width: 40%;
+    height: 560px;
+    background: linear-gradient(#9A5BFF, #9A5BFF);
+}
+
+.content {
+    color: white;
+    text-align: center;
+}
+
+.human {
+    width: 376px;
+    height: 445px;
+    position: absolute;
+    left: 40px;
+    bottom: 70px;
+}
+
+.phone {
+    width: 255px;
+    height: 350px;
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+}
+
+.content > span {
+    
+}
+
+.content > button {
+    border-radius: 30px;
+    border: none;
+    width: 153px;
+    height: 43px;
+    background: #FFFFFF;
+    color: #0150C6;
+    font-family: yekan;
+    font-weight: 700;
 }
